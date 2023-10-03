@@ -1,14 +1,11 @@
 
 import './App.css';
+import './Custom-style.css'
+import Firstsection from './Firstsection';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-      starting new design of react 
-        
-      </header>
-    </div>
+    <Firstsection/>
   );
 }
 

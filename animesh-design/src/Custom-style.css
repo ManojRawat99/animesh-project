@@ -1,0 +1,11 @@
+#animesh-navigation-container {
+    position: fixed;
+    z-index: 900;
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+    -webkit-transition: background-color .5s cubic-bezier(.165,.84,.44,1);
+    transition: background-color .5s cubic-bezier(.165,.84,.44,1);
+    background-color: transparent;
+    will-change: background-color;
+}
